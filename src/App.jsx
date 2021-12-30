@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import People from './components/People';
 import Planets from './components/Planets';
 import { ReactQueryDevtools } from 'react-query/devtools';
-import { QueryCache, QueryClient, QueryClientProvider } from 'react-query';
+import { QueryClient, QueryClientProvider } from 'react-query';
 
 const queryClient = new QueryClient();
 
